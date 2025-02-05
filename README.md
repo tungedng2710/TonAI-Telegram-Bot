@@ -32,7 +32,7 @@ Ollama will run on default port `11434`. If you want more advanced configs, plea
 
 Create a ```configs.py``` file, then write the configs file like the example below
 ```
-MODEL_ID = 'llama3.2-vision'
+MODEL_ID = 'deepseek-r1:70b'
 BOT_USERNAME = "tonai_chat_bot"
 with open("bot_token.txt") as txtfile:
    BOT_TOKEN = txtfile.read()
