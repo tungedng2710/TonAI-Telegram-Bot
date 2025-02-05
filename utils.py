@@ -1,6 +1,7 @@
 import base64
 import ollama
 import subprocess
+from ollama_api import ollama_stream_inference
 from configs import MODEL_ID
 
 

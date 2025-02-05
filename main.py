@@ -27,7 +27,7 @@ def add_new_user(message):
                                       }
     USER_SESSIONS[message.chat.id]["dialogue"] = []
     if message.chat.type == 'private':
-        bot.send_message(message.chat.id, f"Hi {message.from_user.first_name} 🤗")
+        bot.send_message(message.chat.id, f"Hi {message.from_user.first_name} 🤗.\n Your chat id is {message.chat.id}")
 
 
 @bot.message_handler(commands=['reset'])
