@@ -164,3 +164,4 @@ stuffs/user*
 bot_token.txt
 configs.py
 *temp*
+*.sh
